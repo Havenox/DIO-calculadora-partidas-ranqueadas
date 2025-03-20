@@ -64,5 +64,9 @@ O Herói tem de saldo de 10 e está no nível de Ferro
 
 Sinta-se à vontade para contribuir com melhorias, abrir issues ou criar pull requests!
 
----
-🚀 Desenvolvido por [Havenox](https://github.com/havenox)
+
+## 📌 Autor
+
+🚀 Desenvolvido por **Eduardo Nascimento**
+
+🔗 [GitHub](https://github.com/Havenox) | [LinkedIn](https://www.linkedin.com/in/havenox)
