@@ -1,26 +1,68 @@
- # 2️⃣ Calculadora de partidas Rankeadas
-**O Que deve ser utilizado**
+# 🏆 Calculadora de Partidas Rankeadas
 
-- Variáveis
-- Operadores
-- Laços de repetição
-- Estruturas de decisões
-- Funções
+Este projeto foi desenvolvido como parte de um desafio proposto pela plataforma **DIO (Digital Innovation One)**. O objetivo é calcular o saldo de vitórias de um jogador e classificá-lo em um ranking com base em seu desempenho.
 
-## Objetivo:
+## 🚀 Tecnologias Utilizadas
 
-Crie uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador,
-depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve ser feito através do calculo (vitórias - derrotas)
+- **JavaScript** → Manipulação de variáveis, operadores e estruturas de decisão
+- **Node.js** (opcional) → Para execução do código no terminal
+- **Git e GitHub** → Controle de versão e compartilhamento do código
 
-Se vitórias for menor do que 10 = Ferro
-Se vitórias for entre 11 e 20 = Bronze
-Se vitórias for entre 21 e 50 = Prata
-Se vitórias for entre 51 e 80 = Ouro
-Se vitórias for entre 81 e 90 = Diamante
-Se vitórias for entre 91 e 100= Lendário
-Se vitórias for maior ou igual a 101 = Imortal
+## 🎯 Objetivo do Projeto
 
-## Saída
+Criar uma função que recebe como parâmetros o número de vitórias e derrotas de um jogador, calcula seu saldo e determina seu nível de acordo com a seguinte classificação:
 
-Ao final deve se exibir uma mensagem:
-"O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
+| Saldo de Vitórias | Ranking |
+|------------------|---------|
+| 0 - 10  | 🛠️ Ferro |
+| 11 - 20  | 🥉 Bronze |
+| 21 - 50  | 🥈 Prata |
+| 51 - 80  | 🏅 Ouro |
+| 81 - 90  | 💎 Diamante |
+| 91 - 100 | 🔥 Lendário |
+| 101+ | 🏆 Imortal |
+
+## 📝 Como Funciona
+
+O código implementa duas funções principais:
+
+1. **`calculaSaldo(vitorias, derrotas)`** → Calcula o saldo de vitórias.
+2. **`calculaRank(saldoVitorias)`** → Retorna o ranking do jogador com base no saldo.
+
+### Exemplo de Saída:
+
+```bash
+O Herói tem de saldo de 10 e está no nível de Ferro
+```
+
+## 📂 Estrutura do Projeto
+
+```
+📂 DIO-calculadora-partidas-ranqueadas
+ ├── 📄 index.js  # Código principal do projeto
+ ├── 📄 README.md  # Documentação do projeto
+```
+
+## 🛠️ Como Executar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/DIO-calculadora-partidas-ranqueadas.git
+   ```
+
+2. Acesse a pasta do projeto:
+   ```bash
+   cd DIO-calculadora-partidas-ranqueadas
+   ```
+
+3. Execute o código com Node.js:
+   ```bash
+   node index.js
+   ```
+
+## 🤝 Contribuição
+
+Sinta-se à vontade para contribuir com melhorias, abrir issues ou criar pull requests!
+
+---
+🚀 Desenvolvido por [Havenox](https://github.com/havenox)
