@@ -47,7 +47,7 @@ O Herói tem de saldo de 10 e está no nível de Ferro
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/DIO-calculadora-partidas-ranqueadas.git
+   git clone https://github.com/havenox/DIO-calculadora-partidas-ranqueadas.git
    ```
 
 2. Acesse a pasta do projeto:
